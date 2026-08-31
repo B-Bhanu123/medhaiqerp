@@ -4,6 +4,7 @@
   "description": "Enterprise Education Resource Planning Platform",
   "main": "server/src/server.ts",
   "scripts": {
+    "start": "node server/dist/server.js",
     "setup": "npm run setup:server && npm run setup:client",
     "setup:server": "cd server && npm install",
     "setup:client": "cd client && npm install",
@@ -26,7 +27,6 @@
     "library"
   ],
   "author": "MedhaIQ Core Engineering Team",
-  "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2",
     "typescript": "^5.3.3"
